@@ -1,0 +1,25 @@
+{
+  "name": "yinyundocs",
+  "version": "0.0.0",
+  "description": "Yinyun Docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YinyunStudio/YinyunDocs.git"
+  },
+  "author": "Yinyun Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YinyunStudio/YinyunDocs/issues"
+  },
+  "homepage": "https://github.com/YinyunStudio/YinyunDocs#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.3",
+    "vue": "^3.3.4"
+  }
+}
