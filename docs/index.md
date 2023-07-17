@@ -7,21 +7,11 @@ hero:
   name: 阴云文档
   text: 项目相关教程、文档存放于此
   tagline: 阴云皮肤、渐蓝方块的教程等都存放于此
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /guide/what-is-vitepress
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
-    - theme: alt
-      text: GitHub
-      link: https://github.com/YinyunStudio/YinyunDoc/
 features:
-- title: <a href="">渐蓝方块</a>
-  details: Lorem ipsum...
-- title: 阴云皮肤
-  details: Lorem ipsum...
+- title: <a href="/twobluecube/">渐蓝方块<span class="go">前往</span></a>
+  details: 阴云皮肤的使用指南
+- title: <a href="/yinyunskin/">阴云皮肤<span class="go">前往</span></a>
+  details: 进服教程、服务器规则、还有...?
 - title: 更多
   details: 以后会有的...
 ---
@@ -32,5 +22,12 @@ features:
   }
   .VPNavBar.fill {
     transition: border 700ms;
+  }
+
+  .is-home .go {
+    display: none;
+    float: right;
+    color: var(--vp-c-brand);
+    /* text-decoration: underline; */
   }
 </style>

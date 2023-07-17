@@ -52,7 +52,7 @@ export default defineConfig({
     },
 
         footer: {
-            message: 'Thanks The Docs Team, All Document Writer and ViteePress, Netlify, Gethub',
+            message: 'Thanks The Docs Team, All Document Writer and VitePress, Netlify, Gethub',
             copyright: 'Copyright © 2022-2023 YinyunStudio'
         }
     }
