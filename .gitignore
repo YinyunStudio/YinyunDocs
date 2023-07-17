@@ -132,3 +132,5 @@ dist
 # vitepress
 .vitepress/dist
 .vitepress/cache
+
+*.ai

@@ -1,15 +1,36 @@
 ---
-home: true
-heroImage: /logo.png
-heroText: 阴云文档
-tagline: 阴云项目的介绍与帮助文档
-actionText: null
-actionLink: null
+titleTemplate: 项目相关教程、文档
+
+layout: home
+
+hero:
+  name: 阴云文档
+  text: 项目相关教程、文档存放于此
+  tagline: 阴云皮肤、渐蓝方块的教程等都存放于此
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/what-is-vitepress
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/vuejs/vitepress
+    - theme: alt
+      text: GitHub
+      link: https://github.com/YinyunStudio/YinyunDoc/
+features:
+- title: <a href="">渐蓝方块</a>
+  details: Lorem ipsum...
+- title: 阴云皮肤
+  details: Lorem ipsum...
+- title: 更多
+  details: 以后会有的...
 ---
 
-
-
-::: slot footer
-Thanks [The Docs Team](https://github.com/orgs/YinyunStudio/teams/the-docs-team), All Document Writer and [VuePress](https://vuepress.vuejs.org/), [Netlify](https://www.netlify.com/), [Gethub](https://github.com/).<br>
-Copyright © 2022-2023 [YinyunStudio](https://www.yinyuns.top/).
-:::
+<style>
+  .VPNavBar {
+    transition: border 200ms;
+  }
+  .VPNavBar.fill {
+    transition: border 700ms;
+  }
+</style>

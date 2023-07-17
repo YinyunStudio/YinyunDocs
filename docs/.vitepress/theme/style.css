@@ -3,6 +3,19 @@
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
 
+
+
+
+.VPNavBarHamburger.active .middle {
+    transform: translateX(17px) !important;
+}
+
+header .curtain::before {
+    height: 8px !important;
+}
+
+
+
 /**
  * Transitions
  * -------------------------------------------------------------------------- */
@@ -11,17 +24,20 @@ body {
     transition: color 200ms, background-color 200ms !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /**
  * Colors
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-c-brand: #646cff;
-    --vp-c-brand-light: #747bff;
-    --vp-c-brand-lighter: #9499ff;
-    --vp-c-brand-lightest: #bcc0ff;
-    --vp-c-brand-dark: #535bf2;
-    --vp-c-brand-darker: #454ce1;
+    --vp-c-brand: hwb(205 23% 6%);
+    --vp-c-brand-light: hwb(205 23% 0%);
+    --vp-c-brand-lighter: hwb(205 30% 0%);
+    --vp-c-brand-dark: hwb(205 35% 5%);
+    --vp-c-brand-darker: hwb(205 40% 12%);
     --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
 }
 
@@ -49,51 +65,7 @@ body {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(
       120deg,
-      #bd34fe 30%,
-      #41d1ff
+      #3dbfdd 30%,
+      #42dfe0
     );
-
-    --vp-home-hero-image-background-image: linear-gradient(
-      -45deg,
-      #bd34fe 50%,
-      #47caff 50%
-    );
-    --vp-home-hero-image-filter: blur(40px);
 }
-
-@media (min-width: 640px) {
-    :root {
-        --vp-home-hero-image-filter: blur(56px);
-    }
-}
-
-@media (min-width: 960px) {
-    :root {
-        --vp-home-hero-image-filter: blur(72px);
-    }
-}
-
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-
-:root {
-    --vp-custom-block-tip-border: var(--vp-c-brand);
-    --vp-custom-block-tip-text: var(--vp-c-brand-darker);
-    --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
-}
-
-.dark {
-    --vp-custom-block-tip-border: var(--vp-c-brand);
-    --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
-    --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
-}
-
-/**
- * Component: Algolia
- * -------------------------------------------------------------------------- */
-
-.DocSearch {
-   --docsearch-primary-color: var(--vp-c-brand) !important;
-}
-
