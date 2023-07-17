@@ -52,7 +52,8 @@ export default defineConfig({
     },
 
         footer: {
-            message: 'Thanks The Docs Team, All Document Writer and VitePress, Netlify, Gethub',
+            // Thanks The Docs Team, All Document Writer and VitePress, Netlify, Gethub
+            message: '本文档内容采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 进行许可',
             copyright: 'Copyright © 2022-2023 YinyunStudio'
         }
     }
