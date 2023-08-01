@@ -3,7 +3,7 @@
 如果您已经安装了1.20.1的基岩版，请跳至[**第3步**](#_3)
 :::
 ## 1
-下载1.20.1基岩版mc并安装。[Minecraft Bedrock 1.20.1](https://mcapks.net/info/MS4yMC4xLjAy/32e6835e669aa1ffe5fe344c37b6cd7e.html)
+点击右侧链接下载1.20.1基岩版mc并安装。[Minecraft Bedrock 1.20.1](https://mcapks.net/info/MS4yMC4xLjAy/32e6835e669aa1ffe5fe344c37b6cd7e.html)
 ::: warning 提示
 如下载后无法安装或无法打开(闪退)，请尝试下载32位版
 :::
