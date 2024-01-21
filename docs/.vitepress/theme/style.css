@@ -21,7 +21,7 @@ header .curtain::before {
  * -------------------------------------------------------------------------- */
 
 body {
-    transition: color 200ms, background-color 200ms !important;
+    /* transition: color 200ms, background-color 200ms !important; */
 }
 
 html {
@@ -33,7 +33,7 @@ html {
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-c-brand: hwb(205 23% 6%);
+    --vp-c-brand-1: hwb(205 18% 6%);
     --vp-c-brand-light: hwb(205 23% 0%);
     --vp-c-brand-lighter: hwb(205 30% 0%);
     --vp-c-brand-dark: hwb(205 35% 5%);

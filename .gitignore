@@ -130,7 +130,7 @@ dist
 .pnp.*
 
 # vitepress
-.vitepress/dist
-.vitepress/cache
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 
 *.ai
