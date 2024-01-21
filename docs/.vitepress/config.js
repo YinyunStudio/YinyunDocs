@@ -9,8 +9,8 @@ export default defineConfig({
 
     head: [
         ['link', {rel: 'icon', href: '/icon.png'}],
-        ['meta', {name: 'keywords', content: '阴云,文档,帮助,说明,教程,介绍,阴云皮肤,渐蓝方块,vuepress'}],
-        ['meta', {name: 'author', content: '阴云工作室,YinyunStudio'}],
+        ['meta', {name: 'keywords', content: '阴云, 文档, 阴云文档, 帮助, 说明, 教程, 介绍, 阴云皮肤, 渐蓝方块, VitePress'}],
+        ['meta', {name: 'author', content: 'Yinyun Studio'}],
     ],
 
     
