@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "yinyundocs",
-  "version": "0.0.0",
+  "version": "1.2.0",
   "description": "Yinyun Docs",
   "main": "index.js",
   "scripts": {
