@@ -11,8 +11,8 @@
 
 
 <script setup>
-import PageNotFound from './e404.vue'
-import Copyright from './copyright.vue'
+import PageNotFound from './E404.vue'
+import Copyright from './Copyright.vue'
 
 import DefaultTheme from 'vitepress/theme'
 const { Layout } = DefaultTheme
