@@ -5,13 +5,7 @@ status = 302
 force = true
 
 [[redirects]]
-from = "/"
-to = "https://docs.niuex.dev/"
-status = 302
-force = true
-
-[[redirects]]
-from = "/"
-to = "https://docs.niuex.dev/"
+from = "/yinyunskin/:any"
+to = "https://docs.niuex.dev/hokoisle-skin/:any"
 status = 302
 force = true
