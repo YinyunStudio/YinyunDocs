@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/:any"
+to = "https://docs.niuex.dev/:any"
+status = 302
