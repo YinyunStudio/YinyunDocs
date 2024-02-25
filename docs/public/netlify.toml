@@ -2,3 +2,16 @@
 from = "/:any"
 to = "https://docs.niuex.dev/:any"
 status = 302
+force = true
+
+[[redirects]]
+from = "/"
+to = "https://docs.niuex.dev/"
+status = 302
+force = true
+
+[[redirects]]
+from = "/"
+to = "https://docs.niuex.dev/"
+status = 302
+force = true
